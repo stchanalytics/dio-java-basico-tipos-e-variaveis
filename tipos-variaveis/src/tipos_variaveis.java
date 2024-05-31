@@ -3,16 +3,26 @@ public class tipos_variaveis {
 
         int numero = 5;
         
-        numero = - numero; // nega o valor da variavel principal
-       /*  System.out.println(- numero);*/ // nao afeta a variavel principal
+       //x repeticao
+       numero ++;
+       //numero = numero        
 
+       System.out.println(numero);
+
+// aplica-se a mesma logica para decremento (--)
+       System.out.println(numero ++); // caso queira que o incremento seja após a impressão
         System.out.println(numero);
+        System.out.println(++ numero); // imprime o incremento no primeiro print
 
-        numero = numero * -1; // torna o valor positivo novamente
+        boolean variavel = true;
 
-        System.out.println(numero);
+        System.out.println(!variavel); // altera apenas na memoria, nao é definitiva
+        System.out.println(variavel);
 
-        
+        variavel = !variavel; // negação de boolean
+
+        System.out.println(variavel);
+
     }
 }
 /*String nomeCompleto= "Linguagem" + "Java"; // concatenação de texto 
@@ -36,3 +46,15 @@ public class tipos_variaveis {
         concatenacao = "K"+(1+1+2);
         System.out.println(concatenacao);
         */
+
+       /* int numero = 5;
+        
+        numero = - numero;  nega o valor da variavel principal
+         System.out.println(- numero); nao afeta a variavel principal
+
+          System.out.println(numero);
+
+        numero = numero * -1; torna o valor positivo novamente
+
+        System.out.println(numero); */
+
